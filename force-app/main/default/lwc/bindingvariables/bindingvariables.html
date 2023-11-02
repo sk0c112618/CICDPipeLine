@@ -1,0 +1,12 @@
+<template>
+    <lightning-card title="Binding Variables" icon-name="standard:customers"></lightning-card>
+    <div class="slds-box slds-theme_default" id="Div1">
+        <h2> This is my first Component in Reality</h2>
+        <lightning-input label="User Input" type="Text" name="text" value={newVar} onchange={changehandler}></lightning-input>
+        <lightning-input label="Name" type="Checkbox" name="checkbox" onchange={changehandler} checked></lightning-input>
+        <lightning-combobox name="picklist" label="Status" value={values} placeholder="Select Progress" options={options} onchange={changehandler} ></lightning-combobox>
+        <p>Hello, {newVar}!</p>
+        <p>Checkbox Value, {varcheckbox}</p>
+        <p>Picklist Value, {values} </p>
+    </div>
+</template>

@@ -1,0 +1,16 @@
+<template>
+    <lightning-card title="Bind form and conditionaly render element " icon-name="utility:user">
+        <div class="slds-var-m-around_medium">
+            Hello, {myValue}!
+        </div>
+        <div style="padding:10px">
+            <lightning-input label="Name" type="Checkbox" name="checkbox" onchange={changeHandler}></lightning-input>
+            <template if:true={ShowMe}>
+                I am Visible.
+            </template>
+            <template if:false={ShowMe}>
+                I am not Visible.
+            </template>
+        </div>
+    </lightning-card>
+</template>

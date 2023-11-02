@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ConnectedApp xmlns="http://soap.sforce.com/2006/04/metadata">
+    <contactEmail>harsh@crmlanding.in</contactEmail>
+    <label>MyJenkinsApp</label>
+    <oauthConfig>
+        <callbackUrl>http://localhost:1717/OauthRedirect</callbackUrl>
+        <certificate>MIIDjzCCAncCFDPBe2mnKghll+Dw9F/h30JS3wXCMA0GCSqGSIb3DQEBCwUAMIGDMQswCQYDVQQGEwJVUzETMBEGA1UECAwKQ2FsaWZvcm5pYTELMAkGA1UEBwwCTEExDDAKBgNVBAoMA0FCQzEMMAoGA1UECwwDQUJDMQ4wDAYDVQQDDAVIQVJTSDEmMCQGCSqGSIb3DQEJARYXaGFyc2gudmlqYXkwMkBnbWFpbC5jb20wHhcNMjMwNTA2MTY0MjM5WhcNMjQwNTA1MTY0MjM5WjCBgzELMAkGA1UEBhMCVVMxEzARBgNVBAgMCkNhbGlmb3JuaWExCzAJBgNVBAcMAkxBMQwwCgYDVQQKDANBQkMxDDAKBgNVBAsMA0FCQzEOMAwGA1UEAwwFSEFSU0gxJjAkBgkqhkiG9w0BCQEWF2hhcnNoLnZpamF5MDJAZ21haWwuY29tMIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEA8GJOnKJdtd6Y8tHUxmPbMp8iy989JLEC/DnOwIUjzdlTltDIgzeamVYATLVg2endIfMapXVExn17zYJXCKrHSQ3nQlSZadBQB8sqFe8VxSX/pz9qz8V452zbrpls533koKXdaJCfe6kO+aXanjLLum3LfotMkxR1FqYCjeq9r7rkm5EHHIr96V0f+cgYXCE2dCW4Uw9S5rmbv4KWLRZiMDRAVJiEZ073VgT11sWjlvJtYxQjkOKq857Al6j65oUS+yZScx7KZc/Y1q6hFMHMYNZ2dB3WORE2JJsRsuxZKf2+wuetiPVzqUKs6QaE81gxryBbFXssDCEDDvgz8qMFoQIDAQABMA0GCSqGSIb3DQEBCwUAA4IBAQDhglfzalhg9kiQrR1eT4r2UZqNPx0I7ETFXhpfjiyMwj2v8eg76cuADyaM29B7HyknKrs1nEgglaVADEFi14NEXHXSGYKLTQR2+Y+Zb+BGQpeCKYiIagATHYINIGiB8h8vymzr1nCo5dKPIowpJS0W3iOBEMceoWjVXxkqPgs80fxtLMXh/nthBoR/A//cFKKC6WErSh0cfl0WQ5ic9qUxhHTrpS0E0XNxdTFnfjnOEr1Mbp5S8ROCK5ZWmYZPNPnPgaKerz3HnEWi6nNq6kvEBauDsitJQijVkv/67UZCsxz6KEudxcV26xY9P54vpQLQtZ4+St2xpOmBpQBbtMtx</certificate>
+        <consumerKey>3MVG9n_HvETGhr3DqxnrhJhsZcbOfrsw2QwTnS2vgFq4ez8mFJ.QNUdZTdF3rjfWXuqbcMGzCI49sT2oc_5XJ</consumerKey>
+        <isAdminApproved>true</isAdminApproved>
+        <isConsumerSecretOptional>false</isConsumerSecretOptional>
+        <isIntrospectAllTokens>false</isIntrospectAllTokens>
+        <isSecretRequiredForRefreshToken>true</isSecretRequiredForRefreshToken>
+        <scopes>Api</scopes>
+        <scopes>Web</scopes>
+        <scopes>RefreshToken</scopes>
+    </oauthConfig>
+    <oauthPolicy>
+        <ipRelaxation>ENFORCE</ipRelaxation>
+        <refreshTokenPolicy>zero</refreshTokenPolicy>
+    </oauthPolicy>
+    <profileName>System Administrator</profileName>
+</ConnectedApp>

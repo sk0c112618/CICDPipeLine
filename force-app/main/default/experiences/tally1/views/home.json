@@ -1,0 +1,48 @@
+{
+  "appPageId" : "82ec4fd3-30c8-42db-a453-46a247e58381",
+  "componentName" : "siteforce:sldsOneColLayout",
+  "dataProviders" : [ ],
+  "id" : "0b42fedc-0fb0-4a65-88f0-c01f3a908cf2",
+  "label" : "Home",
+  "regions" : [ {
+    "id" : "4af43132-84b0-40c3-a061-7cbb6a59dc4c",
+    "regionName" : "header",
+    "type" : "region"
+  }, {
+    "components" : [ {
+      "componentAttributes" : {
+        "richTextValue" : "<p><strong style=\"font-size: 72px;\">Hello Everyone Good Morning</strong></p>"
+      },
+      "componentName" : "forceCommunity:richTextInline",
+      "id" : "4dab5443-908f-44c8-baa6-de73fe453034",
+      "renderPriority" : "NEUTRAL",
+      "renditionMap" : { },
+      "type" : "component"
+    } ],
+    "id" : "272895ed-c5dc-4a19-85ac-e0bf324b3502",
+    "regionName" : "content",
+    "type" : "region"
+  }, {
+    "id" : "901fb8b1-a852-4f91-a9db-30064887313a",
+    "regionName" : "footer",
+    "type" : "region"
+  }, {
+    "components" : [ {
+      "componentAttributes" : {
+        "customHeadTags" : "",
+        "description" : "",
+        "title" : "Home"
+      },
+      "componentName" : "forceCommunity:seoAssistant",
+      "id" : "1ff840d8-f62b-4120-be50-e1acdbf0f342",
+      "renditionMap" : { },
+      "type" : "component"
+    } ],
+    "id" : "9cde4936-91ba-4ebc-981b-f58d8618e2e3",
+    "regionName" : "sfdcHiddenRegion",
+    "type" : "region"
+  } ],
+  "themeLayoutType" : "Inner",
+  "type" : "view",
+  "viewType" : "home"
+}

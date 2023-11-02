@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TransactionSecurityPolicy xmlns="http://soap.sforce.com/2006/04/metadata">
+    <action>
+        <block>true</block>
+        <endSession>false</endSession>
+        <freezeUser>false</freezeUser>
+        <notifications>
+            <inApp>true</inApp>
+            <sendEmail>false</sendEmail>
+            <user>harsh.vijay@crmanalytics.com</user>
+        </notifications>
+        <twoFactorAuthentication>false</twoFactorAuthentication>
+    </action>
+    <active>true</active>
+    <blockMessage>Why Are you Doing This ?</blockMessage>
+    <developerName>DoNotdothisreport</developerName>
+    <eventName>ReportEvent</eventName>
+    <flow>PolicyCondition_VoRiqKqeSpVwDZtdVcmk</flow>
+    <masterLabel>Do Not do this report</masterLabel>
+    <type>CustomConditionBuilderPolicy</type>
+</TransactionSecurityPolicy>

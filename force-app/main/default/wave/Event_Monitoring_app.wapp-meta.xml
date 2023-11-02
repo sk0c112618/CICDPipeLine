@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WaveApplication xmlns="http://soap.sforce.com/2006/04/metadata">
+    <assetIcon>/analytics/wave/web/proto/images/app/icons/1.png</assetIcon>
+    <folder>Event_Monitoring_app</folder>
+    <masterLabel>Event Monitoring app</masterLabel>
+    <shares>
+        <accessLevel>Manage</accessLevel>
+        <sharedTo>harsh.vijay@crmanalytics.com</sharedTo>
+        <sharedToType>User</sharedToType>
+    </shares>
+    <templateOrigin>sfdc_internal__AdminAnalytics</templateOrigin>
+    <templateVersion>57.0</templateVersion>
+</WaveApplication>

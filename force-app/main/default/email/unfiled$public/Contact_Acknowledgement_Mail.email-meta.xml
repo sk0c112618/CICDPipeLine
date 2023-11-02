@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <description>Send notification to contact</description>
+    <encodingKey>UTF-8</encodingKey>
+    <name>Contact Acknowledgement Mail</name>
+    <style>none</style>
+    <subject>Your Contact Has been Created</subject>
+    <textOnly>Hi {!Contact.Name},
+
+Your Contact has been created in with ID {!Contact.Id}.
+
+Contact Link: {!Contact.Name}
+
+Thanks and Regards,</textOnly>
+    <type>custom</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

@@ -1,0 +1,17 @@
+<template>
+    <lightning-card title="Creating form " icon-name="utility-user" style="background-color:beige">
+        <div class="slds-var-m-around_medium" >
+            Data Table.
+        </div>
+        <div style="padding: 10px;">
+            <lightning-input name="Name" label="Name" type="Text" onchange={changeHandler}></lightning-input>
+            <lightning-input name="Dob"  label="Date of Birth" type="Date" onchange={changeHandler}></lightning-input>
+            <lightning-input name="Checkbox" label="Valid" type="Checkbox" onchange={changeHandler}></lightning-input>   
+        </div>
+        <div style="padding: 10px">
+            <p>Name = {names}</p>
+            <p>Date of Birth = {DateofBirth}</p>
+            <p>CHeckbox Value = {check}</p>
+        </div>
+    </lightning-card>
+</template>

@@ -1,0 +1,32 @@
+<aura:component implements="flexipage:availableForRecordHome,force:hasRecordId" access="global" >
+    <!--<lightning:recordForm objectApiName="Account"
+                          layoutType="Full"
+                          mode="readonly"
+                          columns="3"/> -->
+	<!--<lightning:recordForm objectApiName="Account"
+                          layoutType="Full"
+                          mode="view"
+                          columns="3"/> -->
+    <!--<lightning:recordForm objectApiName="Account"
+                          recordId="0012w000018el1EAAQ"
+                          layoutType="Full"
+                          mode="readonly"
+                          columns="3"/>-->
+     <!-- <lightning:recordEditForm recordId="0032w00000rjZoAAAU" objectApiName="Contact">
+        <lightning:messages />
+        <lightning:outputField fieldName="AccountId" />
+        <lightning:inputField fieldName="FirstName" />
+        <lightning:inputField fieldName="LastName" />
+        <lightning:inputField fieldName="Email" />
+        <lightning:button class="slds-m-left_x-large" variant="base" type="submit" name="update" label="Update" />
+    </lightning:recordEditForm> -->
+
+   <lightning:recordViewForm  objectApiName="Contact" recordId="0032w00000rjZoAAAU"> 
+        <div class="slds-box">
+            <lightning:outputField fieldName="FirstName" />
+            <lightning:outputField fieldName="LastName" />
+            <lightning:outputField fieldName="AccountId" />
+        </div>
+    </lightning:recordViewForm>
+                              
+</aura:component>

@@ -1,0 +1,15 @@
+<aura:component implements="force:appHostable,flexipage:availableForAllPageTypes,flexipage:availableForRecordHome,force:hasRecordId,forceCommunity:availableForAllPageTypes,force:lightningQuickAction" access="global" >
+    <aura:attribute name="firstName" type="String" default="Neeraj" description=""/>
+    <aura:handler name="init" action="{!c.doInit}" value="{!this}"/>
+    <p>Welcome to CRM Landing - {!v.firstName}</p>
+    <table class="slds-table slds-table_cell-buffer slds-table_bordered">
+    	<tr>
+        	<th>Name</th>
+            <th>Email</th>
+        </tr>
+        <tr>
+        	<th>Neeraj</th>
+            <th>neeraj@crmlanding.in</th>
+        </tr>
+    </table>
+</aura:component>

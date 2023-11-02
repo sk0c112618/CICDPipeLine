@@ -1,0 +1,7 @@
+Hi {!Contact.Name},<br>
+<br>
+Your Contact has been created in with ID {!Contact.Id}.<br>
+<br>
+Contact Link: <a href="{!Contact.Link}">{!Contact.Name}</a><br>
+<br>
+Thanks and Regards,
